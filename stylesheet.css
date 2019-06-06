@@ -1,0 +1,81 @@
+/* The Cailen.net Stylesheet
+(C) Copyright 2019 Cailen Knopp, All Rights Reserved.
+
+Written by (you guessed it) Cailen Knopp, June 5 2019.
+*/
+
+body {
+	background-color: #4d769f;
+	font-family: source-code-pro;
+}
+
+.container {
+	display: flex;
+}
+
+.window {
+    width: 40%;
+    height: 64.3%;
+    border-width: 5px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #d7d3c4;
+    margin: 0 auto;
+	
+	cursor: move;
+	
+	display: flex;
+	
+}
+
+.underText {
+    
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+	
+}
+
+.title {
+    /*text-align: center;*/
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    text-align: center;
+}
+
+.listLinks {
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: fit-content;
+    text-align: left;
+    padding-left: 44px;
+}
+
+.listLinks li {
+	display: inline-block;
+	
+}
+
+.listLinks button {
+    background-color: transparent; /* Green */
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    min-width: 30px;
+    min-height: 30px;
+    margin-left: -41px;
+}
+
+.linkWhole {
+    margin-top: -12px;
+}
+
+.linkTitle {
+    margin-left: 17px;
+}
